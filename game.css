@@ -1,0 +1,126 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(rgb(255, 192, 255),white,skyblue);
+  height: 92.5vh;
+  font-family: cursive;
+}
+
+#quiz-container {
+  max-width: 1000px;
+  height: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.15);
+
+}
+
+.options {
+  margin-top: 20px;
+  font-size: 30px;
+
+
+}
+
+.options label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 40px;
+  /* color: red; */
+}
+#question{
+  font-size: 70px;
+
+}
+#submit{
+  background-color: transparent;
+  border: 2px solid transparent;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-size: 22px;
+  margin-top: 30px;
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.15);
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  font-weight: 600;
+}
+#submit:hover{
+  background-color: rgb(230, 192, 255);
+}
+.boxone{
+  border: 2px solid transparent;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  margin-top: -400px;
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.15);
+  margin-left: 1245px;
+  z-index: -1;
+  animation: back 4s linear infinite ;   
+
+}
+.boxtow{
+  border: 2px solid transparent;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-top: -735px;
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.15);
+  margin-left: 800px;
+  z-index: -1;
+  animation: backone 4s linear infinite ;   
+
+}.boxthree{
+  border: 2px solid transparent;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  margin-top: -500px;
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.15);
+  margin-left: 140px;
+  z-index: -1;
+  animation: backtow 4s linear infinite ;   
+
+}.boxfour{
+  border: 2px solid transparent;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  margin-top:-60px;
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.15);
+  margin-left: 550px;
+  z-index: -1;
+  animation: backthree 4s linear infinite ;   
+
+}
+
+
+@keyframes back {
+  50%{transform: translatey(20px);}
+
+  
+  
+}@keyframes backone {
+  50%{transform: translatex(20px);}
+
+  
+  
+}@keyframes backtow {
+  50%{transform: translatey(20px);}
+
+  
+  
+}@keyframes backthree {
+  50%{transform: translatex(20px);}
+
+  
+  
+}
